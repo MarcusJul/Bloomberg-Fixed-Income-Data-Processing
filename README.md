@@ -1,0 +1,2 @@
+# QuantRookie
+Quantitative Finance Practice
