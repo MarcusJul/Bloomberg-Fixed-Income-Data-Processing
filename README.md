@@ -67,7 +67,7 @@ IR Swaptions(Volatility): (Interest Rate Swaptions)
 These vol data are of Black vol (market standard and primary in Bloomberg).
 We use the swaption data to calibrate our SABR parameters.
 
-Note the maximum window for IRS(50) and IR Swaps(30*30=60) are different, for our Swaption pricing we do up to 30*20. 
+Note the maximum window for IRS(50) and IR Swaps(30X30=60) are different, for our Swaption pricing we do up to 30X20. 
 
 Expiry x Tenor	-200bps	-100bps	-50bps	-25bps	ATM	25bps	50bps	100bps	200bps<br/>
 3Mo x 2Yr<br/>
