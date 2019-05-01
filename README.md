@@ -9,8 +9,9 @@ This notebook doesn't take processing date adjustments into account. (i.e. when 
 
 For OIS (Overnight Interest Rate Swaps):
 6 columns with a range of data dates. 10 Years maximum.
-Tenor, CUSIP, Description, Yield(%), Source, Update(Data Date, mm/dd/yy)<br/>
-1D<br/>                                          
+Tenor, CUSIP, Description, Yield(%), Source, Update(Data Date, mm/dd/yy)
+
+1D<br/>
 1W<br/>
 2W<br/>
 3W<br/>
@@ -36,7 +37,7 @@ For IRS: (Interest Rate Swaps)
 The time steps for first 2 years are 3 months. We stick to this frequency and boostrap a discount factor curve of 4*50 data points, up to 50 years.
 Note the maximum window for IRS(50) and IR Swaps(30*30=60) are different, for our Swaption pricing we do up to 30*20. 
 
-Tenor, CUSIP, Description, Yield(%), Source, Update(Data Date, mm/dd/yy)
+Tenor, CUSIP, Description, Yield(%), Source, Update(Data Date, mm/dd/yy)<br/>
 3M<br/>
 6M<br/>
 9M<br/>
